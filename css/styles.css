@@ -74,6 +74,7 @@ body{
 .second-title{
     color: #27519b;
     padding-top: 15%;
+    padding-left: 3rem;
     margin-left: 10%;
 }
 
@@ -290,3 +291,31 @@ body{
     0% {opacity: 0;}
     100% {opacity: 1;}
   }
+
+
+
+/* Media */
+@media (max-width:551px){
+    .title-header{
+        left: 6%;
+    }
+    .text-header{
+        margin-left: 5%;
+    }
+    .first-right{
+        background: none;
+    }
+    .title-first, .text-first{
+        text-align: center;
+    }
+    .second-title{
+        text-align: center;
+        padding-left: 0;
+    }
+    .third-title {
+        padding-bottom: 25px;
+    }
+    .number-fifth{
+        margin-bottom: 50px;
+    }
+}

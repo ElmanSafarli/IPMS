@@ -1,0 +1,292 @@
+body{
+    background-color: #27519b !important;
+}
+
+.navbar{
+    background-color: #27519b;
+}
+
+
+.nav-link{
+    min-width: 85px;
+}
+
+.btn{
+    color: #27519b !important;
+    min-width: 130px;
+}
+
+.title-header{
+    max-width: 300px !important;
+    position: relative;
+    left: 25%;
+    font-size: 4rem;
+    color: #27519b;
+}
+
+.subtitle-header{
+    color: #27519b;
+    font-size: 1.2rem;
+}
+
+.text-header{
+    color: #27519b;
+    font-size: 1rem;
+    max-width: 500px;
+    margin-left: 12%;
+}
+
+.bootom-text-header{
+    color: #27519b;
+}
+
+.header-paralax{
+    width: 635px;
+    height: auto;
+    background-image: url('../assets/header.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first{
+    height: 50vh;
+}
+
+.first-right{
+    background: url('../assets/first.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-first{
+    color: #27519b;
+    padding-top: 20%;
+}
+
+.text-first{
+    color: #27519b;
+    max-width: 500px;
+}
+
+.second-title{
+    color: #27519b;
+    padding-top: 15%;
+    margin-left: 10%;
+}
+
+.second-text{
+    color: #27519b;
+    max-width: 500px;
+    margin-left: 10%;
+}
+
+.second-right{
+    background: url('../assets/second.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-right{
+    background: url('../assets/third.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.third-title{
+    padding-top: 15%;
+}
+
+.third-subtitle{
+    max-width: 500px;
+    margin-bottom: 15%;
+}
+
+.second{
+    margin-top: 10%;
+    max-width: 100% !important;
+}
+
+.third{
+    height: 60vh;
+    margin-top: 10%;
+}
+
+.fourth{
+    margin-top: 5%;
+}
+
+.fourth-left{
+    height: 500px;
+    background: url('../assets/fourth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fourth-title{
+    margin-top: 25%;
+    color: #27519b;
+}
+
+.fourth-subtitle{
+    color: #27519b;
+    max-width: 500px;
+}
+
+.fifth-right{
+    height: 500px;
+    background: url('../assets/fifth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-fifth{
+    margin-top: 25%;
+    color: #27519b;
+}
+
+.location-fifth{
+    color: #27519b;
+}
+
+.mail-fifth a{
+    color: #27519b;
+    text-decoration: none;
+}
+
+.number-fifth{
+    color: #27519b;
+}
+
+.map{
+    margin-top: 15%;
+}
+
+.location-map{
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+  }
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  
+/* About Page */
+.about{
+    background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(0, 0, 0, 0.1)),  url('../assets/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about-title{
+    font-size: 3rem;
+    padding-top: 17%;
+    padding-bottom: 5%;
+}
+
+.about-subtitle{
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+
+.about-text-1{
+    font-size: 1.4rem;
+    padding-bottom: 5%;
+    width: 800px;
+    margin-left: 20%;
+}
+
+.about-text-2{
+    font-size: 1.4rem;
+    padding-bottom: 5%;
+    width: 800px;
+    margin-left: 20%;
+}
+
+#about{
+    width: 100%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+  }
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+/* Staff Page */
+.staff{
+    height: 40vh;
+}
+
+.staff-title{
+    padding-top: 8%;
+}
+
+#staff{
+    width: 100%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+  }
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+/* Student Life */
+.student-life{
+    background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(0, 0, 0, 0.1)),  url('../assets/sl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.student-life-title{
+    padding-top: 12%;
+}
+
+#studentLife{
+    width: 100%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+  }
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+/* Academic */
+.academic{
+    background: linear-gradient(rgba(11, 11, 11, 0.7), rgba(0, 0, 0, 0.1)),  url('../assets/academic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.academic-title{
+    padding-top: 14%;
+}
+
+#academic{
+    width: 100%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+  }
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
